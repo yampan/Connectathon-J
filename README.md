@@ -11,3 +11,4 @@
   * Client Create  
   * Login/Signin  
   * DB access  
+  * CTN-J user for connectathon
