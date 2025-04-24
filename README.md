@@ -4,7 +4,6 @@
 * **IUA**  
   client info  
   token info  
-  sample token  
   IUA extensin  
   OAuth Server  
 * **OAuth Server**  
