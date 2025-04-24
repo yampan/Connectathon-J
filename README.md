@@ -11,4 +11,6 @@
   * Client Create  
   * Login/Signin  
   * DB access  
-  * CTN-J25 user for connectathon
+  * CTN-J25 user for connectathon  
+  * Client_id/Client_secret  
+  * Sample token  
