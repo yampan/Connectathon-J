@@ -8,8 +8,8 @@
   OAuth Server  
 * **OAuth Server**  
   * Client Create  
-  * Login/Signin  
-  * DB access  
+  * Login/Sign-in  
+  * DB access(SQLite)  
   * CTN-J25 user for connectathon  
   * Client_id/Client_secret  
   * Sample token  
