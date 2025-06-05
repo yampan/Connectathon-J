@@ -13,3 +13,6 @@
   * CTN-J25 user for connectathon  
   * Client_id/Client_secret  
   * Sample token  
+* **SVCM**
+  * DataSet for SVMC Terminology repository
+    
