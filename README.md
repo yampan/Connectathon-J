@@ -1,6 +1,8 @@
 # Connectathon-J
-**2025-04-13 Created.**
-    
+**2025-06-29 Updated.**
+
++ **PDQm**
+  + Patient resources for CTN
 * **IUA**  
   client info  
   token info  
