@@ -1,6 +1,7 @@
 # Connectathon-J
 **2025-06-29 Updated.**
 
+**Resources**
 + **PDQm_res**
   + Patient resources (16) for CTN
 
