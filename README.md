@@ -8,10 +8,10 @@
   * DataSet for SVMC Terminology repository
 
 **IUA**  
-  client info  
-  token info  
-  IUA extensin  
-  OAuth Server  
+  + client info  
+  + token info  
+  + IUA extensin  
+  + OAuth Server  
 
 **OAuth Server**  
   * Client Create  
