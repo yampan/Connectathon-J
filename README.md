@@ -2,7 +2,7 @@
 **2025-06-29 Updated.**
 
 + **PDQm**
-  + Patient resources for CTN
+  + Patient resources (16) for CTN
 * **IUA**  
   client info  
   token info  
