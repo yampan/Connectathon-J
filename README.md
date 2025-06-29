@@ -1,9 +1,13 @@
 # Connectathon-J
 **2025-06-29 Updated.**
 
-+ **PDQm**
++ **PDQm_res**
   + Patient resources (16) for CTN
-* **IUA**  
+
+* **SVCM_res**
+  * DataSet for SVMC Terminology repository
+
+**IUA**  
   client info  
   token info  
   IUA extensin  
@@ -15,6 +19,5 @@
   * CTN-J25 user for connectathon  
   * Client_id/Client_secret  
   * Sample token  
-* **SVCM**
-  * DataSet for SVMC Terminology repository
+
     
