@@ -6,7 +6,7 @@
   + Patient resources (16) for CTN
 
 * **SVCM_res**
-  * DataSet for SVMC Terminology repository
+  * DataSets for SVMC Terminology repository
 
 **IUA**  
   + client info  
