@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "d3FCOLO1",
+  "identifier": [{
+    "system": "1.2.392.200036.9169.1.9.20.20",
+    "value": "1234567801"
+  }],
+  "active": true,
+  "name": [{
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "ABC"
+    }],
+    "family": "OZONE",
+    "given": ["JIN"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "IDE"
+    }],
+    "family": "大曽根",
+    "given": ["仁"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "SYL"
+    }],
+    "family": "オオゾネ",
+    "given": ["ジン"]
+  }],
+  "telecom": [{
+    "system": "phone",
+    "value": "03-3506-8010",
+    "use": "home"
+  }],
+  "gender": "male",
+  "birthDate": "1981-01-01",
+  "address": [{
+    "text": "東京都港区新橋２丁目５番５号",
+    "postalCode": "105-0004",
+    "country": "JP"
+  }]
+}

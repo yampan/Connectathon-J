@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "d3FCOLP4",
+  "identifier": [{
+    "system": "1.2.392.200036.9169.1.9.20.20",
+    "value": "1234567814"
+  }],
+  "active": true,
+  "name": [{
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "ABC"
+    }],
+    "family": "KANEDA",
+    "given": ["MITSUHARU"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "IDE"
+    }],
+    "family": "金田",
+    "given": ["光春"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "SYL"
+    }],
+    "family": "カネダ",
+    "given": ["ミツハル"]
+  }],
+  "telecom": [{
+    "system": "phone",
+    "value": "089-993-1000",
+    "use": "home"
+  }],
+  "gender": "male",
+  "birthDate": "1934-06-27",
+  "address": [{
+    "text": "愛媛県松山市北条１３５－５",
+    "postalCode": "799-2340",
+    "country": "JP"
+  }]
+}

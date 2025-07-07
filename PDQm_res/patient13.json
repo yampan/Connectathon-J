@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "d3FCOLP2",
+  "identifier": [{
+    "system": "1.2.392.200036.9169.1.9.20.20",
+    "value": "1234567812"
+  }],
+  "active": true,
+  "name": [{
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "ABC"
+    }],
+    "family": "KANEDA",
+    "given": ["MITSUKO"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "IDE"
+    }],
+    "family": "金田",
+    "given": ["満子"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "SYL"
+    }],
+    "family": "カネダ",
+    "given": ["ミツコ"]
+  }],
+  "telecom": [{
+    "system": "phone",
+    "value": "03-3231-2345",
+    "use": "home"
+  }],
+  "gender": "female",
+  "birthDate": "1989-12-12",
+  "address": [{
+    "text": "東京都中央区八重洲２−３−４",
+    "postalCode": "105-2345",
+    "country": "JP"
+  }]
+}

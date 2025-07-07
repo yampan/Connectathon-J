@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "d3FCOLO4",
+  "identifier": [{
+    "system": "1.2.392.200036.9169.1.9.20.20",
+    "value": "1234567804"
+  }],
+  "active": true,
+  "name": [{
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "ABC"
+    }],
+    "family": "HISAYA",
+    "given": ["KYOKO"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "IDE"
+    }],
+    "family": "久屋",
+    "given": ["恭子"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "SYL"
+    }],
+    "family": "ヒサヤ",
+    "given": ["キョウコ"]
+  }],
+  "telecom": [{
+    "system": "phone",
+    "value": "03-5996-8000",
+    "use": "home"
+  }],
+  "gender": "female",
+  "birthDate": "1984-04-04",
+  "address": [{
+    "text": "東京都新宿区西落合１丁目３１番４号",
+    "postalCode": "161-8560",
+    "country": "JP"
+  }]
+}

@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "d3FCOLO9",
+  "identifier": [{
+    "system": "1.2.392.200036.9169.1.9.20.20",
+    "value": "1234567809"
+  }],
+  "active": true,
+  "name": [{
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "ABC"
+    }],
+    "family": "KANAYAMA",
+    "given": ["KENJI"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "IDE"
+    }],
+    "family": "金山",
+    "given": ["憲史"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "SYL"
+    }],
+    "family": "カナヤマ",
+    "given": ["ケンジ"]
+  }],
+  "telecom": [{
+    "system": "phone",
+    "value": "0287-26-6211",
+    "use": "home"
+  }],
+  "gender": "male",
+  "birthDate": "1989-09-09",
+  "address": [{
+    "text": "栃木県大田原市下石上１３８５番地",
+    "postalCode": "324-8550",
+    "country": "JP"
+  }]
+}

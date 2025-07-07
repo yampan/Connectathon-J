@@ -1,0 +1,43 @@
+ {
+   "resourceType": "Patient",
+   "id": "d3FCOLP0",
+   "identifier": [{
+     "system": "1.2.392.200036.9169.1.9.20.20",
+     "value": "1234567810"
+   }],
+   "active": true,
+   "name": [{
+     "extension": [{
+       "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+       "valueCode": "ABC"
+     }],
+     "family": "HIBINO",
+     "given": ["MISATO"]
+   }, {
+     "extension": [{
+       "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+       "valueCode": "IDE"
+     }],
+     "family": "日比野",
+     "given": ["美里"]
+   }, {
+     "extension": [{
+       "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+       "valueCode": "SYL"
+     }],
+     "family": "ヒビノ",
+     "given": ["ミサト"]
+   }],
+   "telecom": [{
+     "system": "phone",
+     "value": "03-6252-2220",
+     "use": "home"
+   }],
+   "gender": "female",
+   "birthDate": "1990-10-10",
+   "address": [{
+     "text": "東京都港区東新橋１−５−２",
+     "postalCode": "105-7123",
+     "country": "JP"
+   }]
+ }

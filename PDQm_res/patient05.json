@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "d3FCOLO5",
+  "identifier": [{
+    "system": "1.2.392.200036.9169.1.9.20.20",
+    "value": "1234567805"
+  }],
+  "active": true,
+  "name": [{
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "ABC"
+    }],
+    "family": "SAKAE",
+    "given": ["KATSUMI"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "IDE"
+    }],
+    "family": "栄",
+    "given": ["克実"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "SYL"
+    }],
+    "family": "サカエ",
+    "given": ["カツミ"]
+  }],
+  "telecom": [{
+    "system": "phone",
+    "value": "03-3815-2121",
+    "use": "home"
+  }],
+  "gender": "male",
+  "birthDate": "1980-01-01",
+  "address": [{
+    "text": "東京都文京区本郷３−３９−４",
+    "postalCode": "113-8483",
+    "country": "JP"
+  }]
+}

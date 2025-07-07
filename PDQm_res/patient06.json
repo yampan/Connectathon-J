@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "",
+  "identifier": [{
+    "system": "1.2.392.200036.9169.1.9.20.20",
+    "value": "1234567806"
+  }],
+  "active": true,
+  "name": [{
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "ABC"
+    }],
+    "family": "YABA",
+    "given": ["MITSURU"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "IDE"
+    }],
+    "family": "矢場",
+    "given": ["満"]
+  }, {
+    "extension": [{
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+      "valueCode": "SYL"
+    }],
+    "family": "ヤバ",
+    "given": ["ミツル"]
+  }],
+  "telecom": [{
+    "system": "phone",
+    "value": "03-3231-8755",
+    "use": "home"
+  }],
+  "gender": "male",
+  "birthDate": "1980-01-01",
+  "address": [{
+    "text": "東京都中央区八重洲１−５−３",
+    "postalCode": "103-0028",
+    "country": "JP"
+  }]
+}
