@@ -1,6 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "",
+  "id": "d3FCOLO6",
   "identifier": [{
     "system": "1.2.392.200036.9169.1.9.20.20",
     "value": "1234567806"
@@ -36,7 +36,7 @@
   "gender": "male",
   "birthDate": "1980-01-01",
   "address": [{
-    "text": "東京都中央区八重洲１−５−３",
+    "text": "東京都中央区八重洲１?５?３",
     "postalCode": "103-0028",
     "country": "JP"
   }]
