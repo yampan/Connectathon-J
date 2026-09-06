@@ -1,0 +1,48 @@
+{
+  "resourceType": "Device",
+  "id": "ecg-monitor",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-07-10T19:54:57.961+09:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/Device"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://IHE-hospital.local/devices/id",
+      "value": "DEVI-2600123"
+    }
+  ],
+  "status": "active",
+  "manufacturer": "CardioTech Japan Co. Ltd.",
+  "manufactureDate": "2024-01-15",
+  "expirationDate": "2029-01-14",
+  "serialNumber": "ECG-2024-00123",
+  "deviceName": [
+    {
+      "name": "心電計 Model-X",
+      "type": "user-friendly-name"
+    },
+    {
+      "name": "BPM-X100",
+      "type": "manufacturer-name"
+    }
+  ],
+  "modelNumber": "BPM-X100",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "86184003",
+        "display": "Electrocardiographic monitor and recorder"
+      }
+    ],
+    "text": "12誘導心電計"
+  },
+  "note": [
+    {
+      "text": "12誘導・安静時・負荷心電図検査の用途"
+    }
+  ]
+}

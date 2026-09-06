@@ -1,0 +1,78 @@
+{
+  "resourceType": "Patient",
+  "id": "IHE-J-CTN-002",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-07-09T15:33:37.876+09:00",
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:1.2.392.200036.9169.1.9.20.20",
+      "value": "1234567802"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "IDE"
+        }
+      ],
+      "use": "usual",
+      "text": "黒川 慶二",
+      "family": "黒川",
+      "given": [
+        "慶二"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "SYL"
+        }
+      ],
+      "use": "usual",
+      "text": "クロカワ ケイジ",
+      "family": "クロカワ",
+      "given": [
+        "ケイジ"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "ABC"
+        }
+      ],
+      "use": "usual",
+      "text": "KEIJI KUROKAWA",
+      "family": "KUROKAWA",
+      "given": [
+        "KEIJI"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "052-228-8181",
+      "use": "home"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1982-02-02",
+  "address": [
+    {
+      "use": "home",
+      "text": "愛知県名古屋市中区新栄町一丁目１番",
+      "postalCode": "460-0004"
+    }
+  ]
+}

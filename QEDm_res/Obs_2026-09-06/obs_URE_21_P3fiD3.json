@@ -1,0 +1,89 @@
+{
+  "resourceType": "Observation",
+  "id": "jp-observation-labresult-example-021",
+  "meta": {
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_LabResult"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://jpfhir.jp/fhir/core/CodeSystem/JP_SimpleObservationCategory_CS",
+          "code": "laboratory"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://IHE-hospital.local/fhir/Observation/localcode",
+        "code": "05104",
+        "display": "尿酸"
+      },
+      {
+        "system": "http://medis.or.jp/CodeSystem/master-JLAC10-17digits",
+        "code": "3C020000002327101"
+      }
+    ],
+    "text": "尿酸"
+  },
+  "subject": {
+    "reference": "Patient/IHE-J-CTN-003"
+  },
+  "effectiveDateTime": "2026-04-15T10:10:00+09:00",
+  "performer": [
+    {
+      "reference": "Practitioner/jp-practitioner-example-female-1"
+    }
+  ],
+  "valueQuantity": {
+    "value": 9.4,
+    "unit": "mg/dL"
+  },
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "code": "H",
+          "display": "High"
+        }
+      ],
+      "text": "H"
+    }
+  ],
+  "specimen": {
+    "reference": "Specimen/jp-specimen-example-1"
+  },
+  "referenceRange": [
+    {
+      "low": {
+        "value": 2.1
+      },
+      "high": {
+        "value": 7
+      },
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+            "code": "normal",
+            "display": "Normal Range"
+          }
+        ]
+      }
+    }
+  ]
+}

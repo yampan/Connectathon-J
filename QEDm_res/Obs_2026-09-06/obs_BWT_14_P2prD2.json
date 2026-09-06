@@ -1,0 +1,54 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-body-weight-014",
+  "meta": {
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_BodyMeasurement"
+    ]
+  },
+  "status": "preliminary",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://jpfhir.jp/fhir/core/CodeSystem/JP_SimpleObservationCategory_CS",
+          "code": "body-measurement",
+          "display": "Body Measurement"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCategory_CS",
+          "code": "weight",
+          "display": "体重"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://IHE-hospital.local/fhir/Observation/localcode",
+        "code": "IHE-local-379"
+      },
+      {
+        "system": "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCode_CS",
+        "code": "31000296",
+        "display": "体重"
+      }
+    ],
+    "text": "体重"
+  },
+  "subject": {
+    "reference": "Patient/IHE-J-CTN-002"
+  },
+  "effectiveDateTime": "2026-04-08T10:10:00+09:00",
+  "valueQuantity": {
+    "value": 65.8,
+    "unit": "kg",
+    "system": "http://unitsofmeasure.org",
+    "code": "kg"
+  }
+}

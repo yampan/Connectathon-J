@@ -1,0 +1,78 @@
+{
+  "resourceType": "Patient",
+  "id": "IHE-J-CTN-004",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-07-09T15:35:34.767+09:00",
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:1.2.392.200036.9169.1.9.20.20",
+      "value": "1234567804"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "IDE"
+        }
+      ],
+      "use": "usual",
+      "text": "久屋 恭子",
+      "family": "久屋",
+      "given": [
+        "恭子"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "SYL"
+        }
+      ],
+      "use": "usual",
+      "text": "ヒサヤ キョウコ",
+      "family": "ヒサヤ",
+      "given": [
+        "キョウコ"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "ABC"
+        }
+      ],
+      "use": "usual",
+      "text": "KYOKO HISAYA",
+      "family": "HISAYA",
+      "given": [
+        "KYOKO"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "03-5996-8000",
+      "use": "home"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1984-04-04",
+  "address": [
+    {
+      "use": "home",
+      "text": "東京都新宿区西落合１丁目３１番４号",
+      "postalCode": "161-8560"
+    }
+  ]
+}

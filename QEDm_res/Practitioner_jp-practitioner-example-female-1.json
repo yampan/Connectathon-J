@@ -1,0 +1,57 @@
+{
+  "resourceType": "Practitioner",
+  "id": "jp-practitioner-example-female-1",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-07-10T19:54:56.504+09:00",
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Practitioner"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://IHE-hospital.local/practitioners/id",
+      "value": "PRAC-2601018"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "family": "山田",
+      "given": [
+        "由紀"
+      ],
+      "prefix": [
+        "Dr."
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "03-1234-5678",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "yamada.yuuki@hospital.example.jp",
+      "use": "work"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1975-06-15",
+  "qualification": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+            "code": "MD",
+            "display": "Doctor of Medicine"
+          }
+        ]
+      }
+    }
+  ]
+}

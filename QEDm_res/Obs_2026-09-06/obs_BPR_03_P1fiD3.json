@@ -1,0 +1,78 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-bp-003",
+  "meta": {
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_VitalSigns"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationVitalSignsCategory_CS",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "urn:oid:1.2.392.200119.4.804",
+        "code": "31002365",
+        "display": "血圧"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "35094-2",
+        "display": "Blood pressure panel"
+      }
+    ],
+    "text": "血圧（Blood pressure）"
+  },
+  "subject": {
+    "reference": "Patient/IHE-J-CTN-001"
+  },
+  "effectiveDateTime": "2026-04-15T10:10:00+09:00",
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          }
+        ],
+        "text": "収縮期血圧"
+      },
+      "valueQuantity": {
+        "value": 149,
+        "unit": "mmHg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          }
+        ],
+        "text": "拡張期血圧"
+      },
+      "valueQuantity": {
+        "value": 69,
+        "unit": "mmHg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    }
+  ]
+}

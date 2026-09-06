@@ -1,0 +1,57 @@
+{
+  "resourceType": "Specimen",
+  "id": "jp-specimen-example-1",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-07-10T19:54:59.567+09:00",
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Specimen"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://IHE-hospital.local/specimens/id",
+      "value": "SPEC-2600123450"
+    }
+  ],
+  "status": "available",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+        "code": "BLD",
+        "display": "Whole blood"
+      }
+    ],
+    "text": "静脈血"
+  },
+  "collection": {
+    "bodySite": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "368208006",
+          "display": "Left cubital vein"
+        }
+      ],
+      "text": "左肘正中皮静脈"
+    },
+    "fastingStatusCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0916",
+          "code": "F",
+          "display": "Fasting"
+        }
+      ],
+      "text": "空腹時"
+    }
+  },
+  "container": [
+    {
+      "type": {
+        "text": "EDTA採血管"
+      }
+    }
+  ]
+}

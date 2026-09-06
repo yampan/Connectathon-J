@@ -1,0 +1,39 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-CC-011",
+  "meta": {
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Common"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam"
+        },
+        {
+          "system": "http://jpfhir.jp/fhir/core/CodeSystem/JP_SimpleObservationCategory_CS",
+          "code": "exam"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8661-1",
+        "display": "Chief complaint"
+      }
+    ],
+    "text": "主訴"
+  },
+  "subject": {
+    "reference": "Patient/IHE-J-CTN-002"
+  },
+  "effectiveDateTime": "2026-04-08T10:10:00+09:00",
+  "valueString": "左手にしびれを訴えている"
+}

@@ -1,0 +1,78 @@
+{
+  "resourceType": "Patient",
+  "id": "IHE-J-CTN-001",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-07-09T15:33:36.765+09:00",
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:1.2.392.200036.9169.1.9.20.20",
+      "value": "1234567801"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "IDE"
+        }
+      ],
+      "use": "usual",
+      "text": "大曽根 仁",
+      "family": "大曽根",
+      "given": [
+        "仁"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "SYL"
+        }
+      ],
+      "use": "usual",
+      "text": "オオゾネ ジン",
+      "family": "オオゾネ",
+      "given": [
+        "ジン"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "ABC"
+        }
+      ],
+      "use": "usual",
+      "text": "JIN OZONE",
+      "family": "OZONE",
+      "given": [
+        "JIN"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "03-3506-8010",
+      "use": "home"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1981-01-01",
+  "address": [
+    {
+      "use": "home",
+      "text": "東京都港区新橋２丁目５番５号",
+      "postalCode": "105-0004"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "resourceType": "Patient",
+  "id": "IHE-J-CTN-003",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-07-09T15:35:34.192+09:00",
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:1.2.392.200036.9169.1.9.20.20",
+      "value": "1234567803"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "IDE"
+        }
+      ],
+      "use": "usual",
+      "text": "名城 恵梨香",
+      "family": "名城",
+      "given": [
+        "恵梨香"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "SYL"
+        }
+      ],
+      "use": "usual",
+      "text": "メイジョウ エリカ",
+      "family": "メイジョウ",
+      "given": [
+        "エリカ"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "ABC"
+        }
+      ],
+      "use": "usual",
+      "text": "ERIKA MEIJO",
+      "family": "MEIJO",
+      "given": [
+        "ERIKA"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "042-485-7111",
+      "use": "home"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1983-03-03",
+  "address": [
+    {
+      "use": "home",
+      "text": "東京都調布市多摩川３－３５－４",
+      "postalCode": "182-0025"
+    }
+  ]
+}
