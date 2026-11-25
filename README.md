@@ -1,7 +1,7 @@
 # Connectathon-J
-**2025-06-29 Updated.**
-
-**Resources**
+**2025-06-29 Updated.**  
+**各プロファイル用のsample resource**  
+## **Resources**
 + **PDQm_res**
   + Patient resources (16) for CTN
 
